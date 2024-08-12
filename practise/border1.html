@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #d1{
+                border:5px solid;
+                padding:10px;
+                width:250px;
+                
+
+             }
+             #d2{
+                border:5px solid;
+                padding:10px;
+                width:250px;
+                box-sizing: border-box;
+                /* margin:5px; */
+             }
+        </style>
+    </head>
+    <body>
+        <div id="d1">pinky</div>
+        <div id="d2">ponky</div>
+    </body>
+</html>
+<!--
+*In d1 the total width be calculated as leftborder+rightborder+width+leftpadding+rightpadding it implies
+5+5+10+10+250=280px
+*In the total width is 250px because we are using box-border.
+*box sizing will not control margin.
+-->
