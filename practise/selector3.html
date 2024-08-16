@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           
+             /* it will get error because first child is h2
+              li:first-child{
+                color:orange;
+             }  */
+
+             li:first-of-type{ /*it will consider child according to type*/
+                color:brown
+             }
+
+
+        </style>
+    </head>
+    <body>
+         <h1>karna</h1>
+         <h1>vrushali</h1>
+         <h1>supriya</h1>
+         <h1>duryodhana</h1>
+         <h1>bhanumathi</h1>
+
+         <ul>
+            <h2>kunthi</h2>
+            <li>adhiratha</li>
+            <li>radhama</li>
+            <li>drutharasta</li>
+            <li>gandhari</li>
+         </ul>
+    </body>
+</html>
